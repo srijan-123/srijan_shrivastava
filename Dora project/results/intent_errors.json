@@ -1,0 +1,98 @@
+[
+  {
+    "text": "delhi",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6692191362380981
+    }
+  },
+  {
+    "text": "jaipur",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8803210258483887
+    }
+  },
+  {
+    "text": "srinagar",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.910408616065979
+    }
+  },
+  {
+    "text": "hyderabad",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8767815828323364
+    }
+  },
+  {
+    "text": "mumbai",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9199950695037842
+    }
+  },
+  {
+    "text": "goa",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8452513813972473
+    }
+  },
+  {
+    "text": "patna",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8981066346168518
+    }
+  },
+  {
+    "text": "2022-01-10",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5995537042617798
+    }
+  },
+  {
+    "text": "2022-02-10",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5995537042617798
+    }
+  },
+  {
+    "text": "2022-03-10",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5995537042617798
+    }
+  },
+  {
+    "text": "2022-04-10",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5995537042617798
+    }
+  },
+  {
+    "text": "2022-05-10",
+    "intent": "inform_2",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5995537042617798
+    }
+  }
+]

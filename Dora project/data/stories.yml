@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: book ticket manually
+  steps:
+  - intent: greet 
+  - action: utter_greet
+  - intent: flight_booking
+  - action: utter_ask_source_city
+  - intent: inform_2
+  - action: utter_ask_destination_city
+  - intent: inform_2
+  - action: utter_ask_date
+  - action: utter_submit
+  - action: action_get_data
+
+- story: if no
+  steps:
+  - intent: check_no
+  - action: utter_thankyou
+
+- story: if yes
+  steps:
+  - intent: check_yes
+  - action: utter_ask_name
+  - intent: take_user_info
+  - action: utter_user_info_submit
+  - action: utter_ticket_info
+
