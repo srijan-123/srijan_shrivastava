@@ -1,0 +1,50 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- rule: Submit Booking Form
+  condition: 
+  - active_loop: simple_booking_form
+  steps:
+  - action: simple_booking_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_submit
+  - action: action_get_data
+
+ 
+- rule: Activate Booking with Data
+  steps:
+  - intent: inform
+  - action: simple_booking_form
+  - active_loop: simple_booking_form
+
+#- rule: User Infomation Form
+#  condition:
+# - active_loop: user_info_form
+#  steps:
+#  - action: user_info_form
+#  - active_loop: null
+#  - slot_was_set:
+#    - requested_slot: null
+#  - action: utter_user_info_submit
+#  - action: utter_ticket_info
+# - action: utter_thankyou
+
+#- rule: Take User Information
+# steps:
+#  - intent: take_user_info
+# - action: user_info_form
+# - active_loop: user_info_form

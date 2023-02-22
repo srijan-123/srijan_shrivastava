@@ -1,0 +1,93 @@
+{
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "flight_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 48,
+    "confused_with": {}
+  },
+  "inform_2": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 16,
+    "confused_with": {
+      "inform": 12
+    }
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "accuracy": 0.9142857142857143,
+  "macro avg": {
+    "precision": 0.9800000000000001,
+    "recall": 0.925,
+    "f1-score": 0.9288888888888888,
+    "support": 140
+  },
+  "weighted avg": {
+    "precision": 0.9314285714285715,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.8933333333333333,
+    "support": 140
+  },
+  "micro avg": {
+    "precision": 0.9142857142857143,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.9142857142857143,
+    "support": 140
+  }
+}

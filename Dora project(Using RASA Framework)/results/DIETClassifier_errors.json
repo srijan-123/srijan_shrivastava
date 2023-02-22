@@ -1,0 +1,471 @@
+[
+  {
+    "text": "i want to book a flight from mumbai to delhi",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "mumbai",
+        "entity": "source"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "delhi",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.5153685808181763,
+        "value": "mumbai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "source",
+        "start": 39,
+        "end": 44,
+        "confidence_entity": 0.6341190934181213,
+        "value": "delhi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to book a flight from mumbai to delhi on 2022-10-01",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "mumbai",
+        "entity": "source"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "delhi",
+        "entity": "destination"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "value": "2022-10-01",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.5016149878501892,
+        "value": "mumbai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "source",
+        "start": 39,
+        "end": 44,
+        "confidence_entity": 0.7038555145263672,
+        "value": "delhi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 48,
+        "end": 58,
+        "confidence_entity": 0.9997797608375549,
+        "value": "2022-10-01",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i would like to book a flight from mumbai to delhi on 2022-10-01",
+    "entities": [
+      {
+        "start": 35,
+        "end": 41,
+        "value": "mumbai",
+        "entity": "source"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "delhi",
+        "entity": "source"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "value": "2022-10-01",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.5011926293373108,
+        "value": "mumbai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "source",
+        "start": 45,
+        "end": 50,
+        "confidence_entity": 0.7347955107688904,
+        "value": "delhi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 54,
+        "end": 64,
+        "confidence_entity": 0.9997733235359192,
+        "value": "2022-10-01",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Delhi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Delhi",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5732960104942322,
+        "value": "Delhi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bengalore",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Bengalore",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.5935342907905579,
+        "value": "Bengalore",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Jaipur",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Jaipur",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6492009162902832,
+        "value": "Jaipur",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hyderabad",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Hyderabad",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.6410343050956726,
+        "value": "Hyderabad",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Srinagar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Srinagar",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6467071175575256,
+        "value": "Srinagar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "delhi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "delhi",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5824319124221802,
+        "value": "delhi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bengalore",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "bengalore",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.6227742433547974,
+        "value": "bengalore",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "jaipur",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "jaipur",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7235268950462341,
+        "value": "jaipur",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hyderabad",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "hyderabad",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.6500672101974487,
+        "value": "hyderabad",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "srinagar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "srinagar",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6811903119087219,
+        "value": "srinagar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mumbai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Mumbai",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6317490339279175,
+        "value": "Mumbai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Goa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Goa",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.5500867366790771,
+        "value": "Goa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Patna",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Patna",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5177982449531555,
+        "value": "Patna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mumbai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mumbai",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6391516327857971,
+        "value": "mumbai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "goa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "goa",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.5258311629295349,
+        "value": "goa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "patna",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "patna",
+        "entity": "source"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5752531290054321,
+        "value": "patna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,245 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?  
+
+- intent: inform
+  examples: |
+    - i'd like to book a flight to [mumbai](destination)
+    - i want to book a flight to [bangalore](destination)
+    - i want to book a flight to [pune](destination)
+    - i want to book a flight to [goa](destination)
+    - i want to book a flight to [patna](destination)
+    - i want to book a flight to [mumbai](destination)
+    - i want to book a flight to [mumbai](destination) from [delhi](source)
+    - i want to book a flight to [mumbai](destination) from [Jaipur](source)
+    - i want to book a flight to [mumbai](destination) from [Srinagar](source)
+    - i want to book a flight to [mumbai](destination) from [chennai](source)
+    - i want to book a flight to [mumbai](destination) from [guwahati](source)
+    - i would like to book a flight to [pune](destination) from [delhi](source)
+    - i want to book a flight to [pune](destination) from [delhi](source)
+    - i want to book a flight to [pune](destination) from [Jaipur](source)
+    - i want to book a flight to [pune](destination) from [Srinagar](source)
+    - i want to book a flight to [pune](destination) from [chennai](source)
+    - i want to book a flight to [pune](destination) from [guwahati](source)
+    - i would like to book a flight to [bangalore](destination) from [delhi](source)
+    - i want to book a flight to [bangalore](destination) from [delhi](source)
+    - i want to book a flight to [bangalore](destination) from [Jaipur](source)
+    - i want to book a flight to [bangalore](destination) from [Srinagar](source)
+    - i want to book a flight to [bangalore](destination) from [chennai](source)
+    - i want to book a flight to [bangalore](destination) from [guwahati](source)
+
+    - i would like to book a flight to [mumbai](destination) from [delhi](source)
+    - i want to book a flight from [delhi](source) to [mumbai](destination)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-10-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-09-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-08-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-07-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-06-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-02-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-01-10](date)
+    - i want to book a flight from [delhi](source) to [mumbai](destination) on [2022-03-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-10-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-09-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-08-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-07-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-06-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-02-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-01-10](date)
+    - i want to book a flight from [hyderabad](source) to [mumbai](destination) on [2022-03-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-10-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-09-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-08-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-07-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-06-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-02-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-01-10](date)
+    - i want to book a flight from [delhi](source) to [pune](destination) on [2022-03-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-10-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-09-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-08-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-07-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-06-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-02-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-01-10](date)
+    - i want to book a flight from [delhi](source) to [bangalore](destination) on [2022-03-10](date)
+
+    -[delhi](source) 
+    -[delhi](source)
+    -[chennai](source) 
+    -[jaipur](source)  
+    -[srinagar](source)  
+    -[guwahati](source) 
+    -[hyderabad](source)                
+    -[mumbai](destination) 
+    -[bangalore](destination) 
+    -[pune](destination) 
+    -[goa](destination)
+    -[patna](destination)    
+    -[2022-01-10](date) 
+    -[2022-02-10](date)
+    -[2022-03-10](date)
+    -[2022-04-10](date)
+    -[2022-05-10](date)
+    -[2022-06-10](date)
+    -[2022-07-10](date)
+    -[2022-08-10](date)
+    -[2022-09-10](date)
+    -[2022-10-10](date) 
+
+- intent: flight_booking
+  examples: |
+    - I want to a book a flight
+    - i want to a book a flight
+    - book me a flight
+    - Book me a flight
+    - hey! I want latest flight schedule
+    - flight schedule
+    - flight information
+    - flight info
+    - hey! I want latest flight schedule
+- intent: inform_2
+  examples: |
+    -[delhi](source) 
+    -[delhi](source)
+    -[chennai](source) 
+    -[jaipur](source)  
+    -[srinagar](source)  
+    -[guwahati](source) 
+    -[hyderabad](source)                
+    -[mumbai](destination) 
+    -[bangalore](destination) 
+    -[pune](destination) 
+    -[goa](destination)
+    -[patna](destination)    
+    -[2022-01-10](date) 
+    -[2022-02-10](date)
+    -[2022-03-10](date)
+    -[2022-04-10](date)
+    -[2022-05-10](date)
+
+- intent: check_yes
+  examples: |
+    - yes
+    - y
+    - YES
+    - Yes
+
+- intent: check_no
+  examples: |
+    - No
+    - n
+    - NO
+    - no
+- intent: take_user_info
+  examples: |
+    - [Ayaz khan](name)
+    - [Srijan Srivastava](name)
+    - [Saroj Choudhari](name)
+    - [Shubham More](name)
+    - [Dinesh Choudhari](name)
+    - [Ayaz](name)
+    - [Srijan](name)
+    - [Saroj](name)
+    - [Shubham](name)
+    - [Dinesh](name)
+    - [Pramod](name)
+    - [Pramod Sharma](name)
+    - [Atharva](name)
+    - my name is [saroj](name)
+    - my name is [ayaz](name)
+    - my name is [srijan](name)
+    - my name is [shubham](name)
+    - my name is [dinesh](name)
+    - i am [saroj](name)
+    - i am [ayaz](name)
+    - i am [srijan](name)
+    - i am [shubham](name)
+    - i am [dinesh](name)
+
+
